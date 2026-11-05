@@ -66,7 +66,7 @@ whose solution is $r=\sigma_t$, propagator $\sqrt\lambda/\sigma_t$, and $\ddot r
 $$\boxed{\;\beta_{\rm ODE}=-\tfrac12\,(\lambda\ln\lambda+\lambda-1)\;}\qquad
 \boxed{\;\alpha_{\rm ODE}=-\frac{\mu\sqrt\lambda}{2}\int_0^1\frac{dx}{\sqrt{1+(\lambda-1)x^2}}\;}$$
 
-(the integral is $\operatorname{arcsinh}\sqrt{\lambda-1}/\sqrt{\lambda-1}$ for $\lambda>1$, $\arcsin\sqrt{1-\lambda}/\sqrt{1-\lambda}$ for $\lambda<1$).
+(the integral is $\text{arcsinh}\sqrt{\lambda-1}/\sqrt{\lambda-1}$ for $\lambda>1$, $\arcsin\sqrt{1-\lambda}/\sqrt{1-\lambda}$ for $\lambda<1$).
 Finally, KL is quadratic in small perturbations, so
 
 $$\mathrm{KL}\big(\mathrm{Law}(Y_N)\,\|\,N(\mu,\Sigma)\big)=h^2\sum_{i=1}^d\left[\frac{\alpha(\lambda_i,\tilde\mu_i)^2}{2\lambda_i}+\frac{\beta(\lambda_i)^2}{4\lambda_i^2}\right]+O(h^3),\qquad \tilde\mu=U^\top\mu .$$
