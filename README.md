@@ -127,7 +127,7 @@ the global-error field obeys the variational equation along characteristics
 
 $$\frac{de}{ds}=\big(1+S'(t,Y)\big)\,e-\tfrac12\ddot Y,\qquad \ddot Y=-\partial_tS+(1+S')(Y+S),$$
 
-and since $\Phi_h#p_T=(\mathrm{id}+h\varepsilon)#p_0$ with $\varepsilon=e\circ\Phi^{-1}$,
+and since $\Phi_h \# p_T=(\mathrm{id}+h\varepsilon) \# p_0$ with $\varepsilon=e\circ\Phi^{-1}$,
 
 $$\mathrm{KL}=\frac{h^2}{2}\int p_T(x)\left(\frac{e'(x)}{\Phi'(x)}+e(x)\,\partial_y\log p_0(\Phi(x))\right)^2dx+O(h^3).$$
 
